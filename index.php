@@ -49,7 +49,7 @@
             }
         </style>
     </head>
-    <body>
+    <body data-spy="scroll" data-target="#mainNav" data-offset="50">
         <!-- this being a one page design, has been divided into 5 segements, each containing a parallax image and a  jumbotron -->
         <section id ="section-1">
             <div class="bgimg bgimg-1">
@@ -57,7 +57,7 @@
                     <span class = "border"> WELCOME TO NARDCON 2019</span>
                 </div>
             </div>
-            <div class="jumbotron jumbotron-fluid">
+            <div class="jumbotron jumbotron-fluid" id ="section-1">
                 <div class="container">
                     <h1 class="display-4"> Welcome to NARDCON; the conference organized by NARD, University of Calcutta.  </h1>
                     <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Accumsan lacus vel facilisis volutpat est velit egestas dui id. Pellentesque adipiscing commodo elit at imperdiet dui accumsan. Proin libero nunc consequat interdum varius sit amet. Ultrices dui sapien eget mi proin sed libero enim sed. Ut enim blandit volutpat maecenas volutpat. Molestie at elementum eu facilisis. </p>
@@ -71,7 +71,7 @@
                     <span class = "border"> NARDCON ORGANIZERS OF 2019 </span>
                 </div>
             </div>
-            <div class="jumbotron jumbotron-fluid">
+            <div class="jumbotron jumbotron-fluid" id ="section-2">
                 <div class="container">
                     <h1 class="display-4">University of Calcutta</h1>
                     <p class="lead">University of Calcutta holds Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Accumsan lacus vel facilisis volutpat est velit egestas dui id. Pellentesque adipiscing commodo elit at imperdiet dui accumsan. Proin libero nunc consequat interdum varius sit amet. Ultrices dui sapien eget mi proin sed libero enim sed. Ut enim blandit volutpat maecenas volutpat. Molestie at elementum eu facilisis. Sed elementum tempus egestas sed sed risus pretium quam vulputate. Semper auctor neque vitae tempus quam pellentesque nec. Viverra vitae congue eu consequat ac. Massa enim nec dui nunc mattis. Non diam phasellus vestibulum lorem sed risus ultricies. Augue eget arcu dictum varius duis at consectetur lorem. In hac habitasse platea dictumst quisque sagittis purus sit. </p>
@@ -85,7 +85,7 @@
                     <span class = "border"> CALL FOR PAPERS </span>
                 </div>
             </div>
-            <div class="jumbotron jumbotron-fluid">
+            <div class="jumbotron jumbotron-fluid" id ="section-3">
                 <div class="container">
                     <h1 class="display-4">Papers are invited for the following topics</h1>
                     <ul style= "text-align: center;">
@@ -97,7 +97,10 @@
                         <li>Enim diam vulputate ut pharetra.</li>
                         <li>Eget velit aliquet sagittis id</li>
                     </ul>
-                    <p class="lead">Last date of submission is 20th January 2019.</p>
+                    <p class="lead">Last date of submission is <span id = "bold" style = "color:red;font-weight:bold;"> 20th January 2019. </span> </p>
+                    <p class="lead" style ="color:red;font-weight:bold;">Click here to submit papers: </p>
+                    <!-- change the link from '#' to the desired -->
+                    <p class="lead"> <a href="#" class="btn btn-primary btn-lg" role = "button" aria-pressed = "true">Submit Papers</a></p>
                 </div>
             </div>
         </section>
@@ -108,7 +111,7 @@
                     <span class = "border"> NARDCON BOARD 2019</span>
                 </div>
             </div>
-            <div class="jumbotron jumbotron-fluid">
+            <div class="jumbotron jumbotron-fluid" id ="section-4">
                 <div class="container">
                     <h1 class="display-4">Keynote and Cahirs</h1>
                     <ul style= "text-align: center;">
@@ -131,7 +134,7 @@
                     <span class = "border"> ABOUT NARDCON</span>
                 </div>
             </div>
-            <div class="jumbotron jumbotron-fluid">
+            <div class="jumbotron jumbotron-fluid" id ="section-5">
                 <div class="container">
                     <h1 class="display-4">Who we are</h1>
                     <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
